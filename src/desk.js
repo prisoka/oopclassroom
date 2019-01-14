@@ -7,6 +7,16 @@ class Desk {
     this.content = "";
   }
 
+  write(string){
+    this.content += string;
+  }
+
+  wipe(){
+    if (this.isWhiteboard === true){
+      this.content = ""
+    }
+  }
+
 }
 
 module.exports = Desk
