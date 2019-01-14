@@ -9,5 +9,9 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "nom": "0.0.3",
+    "npm": "^6.5.0"
   }
 }
