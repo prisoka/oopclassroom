@@ -6,6 +6,7 @@ class Marker {
   }
 
   write(string){
+    let stringLength = string.split(" ")
     
   }
 }
